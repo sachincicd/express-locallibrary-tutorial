@@ -26,5 +26,5 @@ jobs:
               with:
                 context: .
                 push: true
-                tags: ${{ vars.username }}/web:${{github.sha}}
+                tags: ${{ vars.username }}/web1:${{github.sha}}
     
